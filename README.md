@@ -31,6 +31,8 @@ Using this code, it will transfer the chapter “C” which is the first charact
 
 ## B. Username Builder Problem
 
+**Goal:** Create a function **make_username(first_name, last_name):** that combines both names with a “.” in between to create a username.
+
 ### Code:
 
     def make_username(first_name, last_name):
@@ -47,6 +49,8 @@ Example:
 Using this code with the given code above, this will result in **jacob.balagtas**.
 
 ## C. Bookend Swap Problem
+
+**Goal:** Create a function **swap_bookend(items):** that swaps the positions of the first and last characters of the list while keeping the elements in the middle in place.
 
 ### Code: 
 
