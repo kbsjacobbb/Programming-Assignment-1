@@ -17,7 +17,6 @@ The objective of this experiment is to hone and develop basic python skills thro
 ### Code:
 
     def rotate_word(text):
-    
       return text[1: ] + text[0]
 
 This code defines the **rotate_word** function, which has the ability using a string to take the first character of the word to the end of it. For **text[1: ]**, the method used here is string slicing which extracts the index ‘1’ from the word to the end of the string. On the other hand, **for text[0]**, instead of string slicing, it uses string indexing to get the first character of the word. Next, the operation **+** combines the sliced string and the first character from the first two functions. Lastly, the **return** function produces the results.
@@ -25,9 +24,30 @@ This code defines the **rotate_word** function, which has the ability using a st
 Example:
 
     def rotate_word(text):
-
       return text[1: ] + text[0]
-
       print(rotate_word(“Cellphone”))
 
 Using this code, it will transfer the chapter “C” which is the first character to the place of the last character. This will result in the newly arranged word, **ellphoneC**.
+
+## B. Username Builder Problem
+
+### Code:
+
+    def make_username(first_name, last_name):
+        first_name = first_name.lower().replace (“ “,””)
+        last_name = last_name.lower().replace (“ “,””)
+        return first_name + “.” + last_name
+
+This code defines the **make_username** function that combines the first name and last name with a period in between to create a username. The function **.lower()** converts all the characters of both the first and last names into lowercase and the **return** function will show the results.
+
+Example:
+
+    print(make_username(“Jacob”, “Balagtas”))
+
+Using this code with the given code above, this will result in **jacob.balagtas**.
+
+## C. Bookend Swap Problem
+
+### Code:
+
+    
