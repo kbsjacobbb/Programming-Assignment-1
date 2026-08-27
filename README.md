@@ -12,7 +12,7 @@ The objective of this experiment is to hone and develop basic python skills thro
 
 ## A. Word Rotation Problem
 
-**Goal:** Create a function **rotate_word(text)** that moves the first character of the word to the end of it.
+**Goal:** Create a function **rotate_word(text)** that moves the first character of the word to the end of the word itself.
 
 ### Code:
 
@@ -48,6 +48,20 @@ Using this code with the given code above, this will result in **jacob.balagtas*
 
 ## C. Bookend Swap Problem
 
-### Code:
+### Code: 
 
-    
+    def swap_bookends(items):
+        first, *middle, last = items
+        return [last] + middle + [first]
+
+This code defines the **swap_bookends** function that takes a list and “swaps” or exchanges the positions of the first and last elements while keeping the middle elements intact.
+
+Example:
+
+    print(swap_bookends([1, 2, 3, 4, 5, 6]))
+
+Result:
+
+    [6, 2, 3, 4, 5, 1]
+
+Notice the first and last element, which is 1 and 6, respectively. The second line in the code shows their original positions, while the last line in the code with the **return** function shows that the first and last swapped places but the middle stayed in its place.
