@@ -23,11 +23,9 @@ This code defines the **rotate_word** function, which has the ability using a st
 
 Example:
 
-    def rotate_word(text):
-      return text[1: ] + text[0]
       print(rotate_word(“Cellphone”))
 
-Using this code, it will transfer the chapter “C” which is the first character to the place of the last character. This will result in the newly arranged word, **ellphoneC**.
+Using this code with the code above, it will transfer the chapter “C” which is the first character to the place of the last character. This will result in the newly arranged word, **ellphoneC**.
 
 ## B. Username Builder Problem
 
